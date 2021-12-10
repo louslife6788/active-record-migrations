@@ -282,7 +282,7 @@ to connect to our `artists` database, which will be created in the migration
 via SQLite3 (the adapter).
 
 After we've added the above code to `config/environment.rb`, it's time to run
-`rake db:migrate`.
+`Artist`.
 
 **Note**: Here again, if you encounter an error after running `rake db:migrate`,
 try running `bundle exec rake db:migrate`.
